@@ -28,7 +28,7 @@
 
 			function fillList(sender, value)
 			{
-				document.getElementById('list').getSuggestions(value);
+				document.getElementById('list').fill(value);
 			}
 
 		</script>

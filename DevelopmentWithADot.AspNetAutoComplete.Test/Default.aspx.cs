@@ -9,6 +9,7 @@ namespace DevelopmentWithADot.AspNetAutoComplete.Test
 	{
 		protected void text_AutoComplete(object sender, AutoCompleteEventArgs e)
 		{			
+			//just return 10 strings starting with the given one
 			e.Results = Enumerable.Range(0, 10).Select(x => e.Parameter + x.ToString());
 		}
 
